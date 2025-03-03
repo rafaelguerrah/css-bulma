@@ -8,6 +8,6 @@ function entrar(event) {
     } else if (email === "login@gmail.com" && senha === "1234") {
         window.location.href = "index2.html"; 
     } else {
-        alert("Login errado");
+        alert("Usuário ou senha inválidos. Tente novamente.");
     }
 }
