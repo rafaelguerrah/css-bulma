@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    <title>Bulma</title>
+</head>
+
+<body>
+
+    <h1 class="title">Login</h1>
+
+    <div class="div-menu">
+        <form class="box" onsubmit="entrar(event)">
+            <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                    <input class="input" id="email" type="email" placeholder="e.g. alex@example.com" />
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Senha</label>
+                <div class="control">
+                    <input class="input" id="senha" type="password" placeholder="********" />
+                </div>
+            </div>
+
+            <button class="button is-info is-dark" type="submit" onclick="entrar()">Entrar</button>
+        </form>
+        <progress class="progress is-large is-info" max="100">60%</progress>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>
