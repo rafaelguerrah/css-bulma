@@ -5,7 +5,7 @@ function entrar(event) {
 
     if (email === "" || senha === "") {
         alert("Por favor, preencha todos os campos");
-    } else if (email === "rafael_63_@hotmail.com" && senha === "1234") {
+    } else if (email === "login@gmail.com" && senha === "1234") {
         window.location.href = "index2.html"; 
     } else {
         alert("Login errado");
